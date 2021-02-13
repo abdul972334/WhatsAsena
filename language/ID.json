@@ -2,26 +2,27 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "Indonesia",
     "LANGCODE": "in",
-    "AUTHOR": "@todayisshitday(telegram)",
+    "AUTHOR": "@todayisshitday(telegram) / Avi Patil",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Perintah",
             "DESC": "Deskripsi",
-            "EXAMPLE": "Contoh"
+            "EXAMPLE": "Contoh",
+            "NOT_FOUND": "*Saya tidak dapat menemukan perintah seperti ini*"
         },
         "_plugin": {
-            "INSTALL_DESC": "Plugin installs.",
-            "NEED_URL": "Please enter a URL! Example:",
-            "INVALID_URL": "```Please enter a valid url!```",
-            "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
-            "INSTALLED": "*✅ Plugin has been successfully installed!*",
-            "PLUGIN_DESC": "Shows the plugins you have installed.",
-            "INSTALLED_FROM_REMOTE": "*Plugins you install externally:*",
-            "NO_PLUGIN": "*You have not installed any external plugins!*",
-            "REMOVE_DESC": "Removes the plugin.",
-            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
-            "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
-            "DELETED": "*✅ Module successfully deleted! You must restart for the changes to take effect.*"
+            "INSTALL_DESC": "Penginstalan plugin.",
+            "NEED_URL": "Harap masukkan URL! Contoh:",
+            "INVALID_URL": "```Harap masukkan url yang valid!```",
+            "INVALID_PLUGIN": "*❌ Plugin Anda tidak valid!*\n*Kesalahan:*",
+            "INSTALLED": "*✅ Plugin berhasil diinstal!*",
+            "PLUGIN_DESC": "Menunjukkan plugin yang telah Anda instal.",
+            "INSTALLED_FROM_REMOTE": "*Plugin yang Anda instal secara eksternal:*\n",
+            "NO_PLUGIN": "*Anda belum memasang plugin eksternal!*",
+            "REMOVE_DESC": "Menghapus plugin.",
+            "NEED_PLUGIN": "```Harap masukkan sebuah Plugin! Contoh: .plugin __test```",
+            "NOT_FOUND_PLUGIN": "```Mungkin Anda telah menginstal plugin seperti itu, atau mungkin belum. Tapi itu pasti tidak sekarang.```",
+            "DELETED": "*✅ Modul berhasil dihapus! Anda harus memulai ulang agar perubahan diterapkan.*"
         },
         "admin": {
             "BAN_DESC": "Ban seseorang dalam grup. Balas pesan atau tandai seseorang untuk menggunakan perintah.",
@@ -60,10 +61,29 @@
             "TERM_DESC": "Memungkinkan untuk menjalankan perintah di shell server.",
             "GIVE_ME_CODE": "*Beri aku kode!*"
         },
+        "heroku": {
+            "RESTART_DESC": "Mulai ulang WhatsAsena",
+            "RESTART_MSG": "```memulai ulang harap tunggu...```",
+            "SHUTDOWN_DESC": "Matikan WhatsAsena",
+            "SHUTDOWN_MSG": "```mematikan ⛔```",
+            "DYNO_DESC": "Periksa penggunaan heroku dyno",
+            "DYNO_TOTAL": "```Total Kuota```",
+            "DYNO_USED": "```Kuota terpakai```",
+            "PERCENTAGE": "```Persentase```",
+            "DYNO_LEFT": "```Sisa```",
+            "SETVAR_DESC": "Set heroku config var",
+            "SET_SUCCESS": "Berhasil disetel ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```Baik Kunci atau Nilai tidak ada```",
+            "INVALID": "```Kunci tidak valid: format nilai```",
+            "GETVAR_DESC": "Dapatkan heroku config var",
+            "DELVAR_DESC": "menghapus heroku config var",
+            "DEL_SUCCESS": "```{} berhasil dihapus```",
+            "NOT_FOUND": "```tidak ada hasil yang ditemukan untuk kunci ini```"           
+        },
         "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEKO_DESC": "Pesan yang dibalas akan ditambahkan ke nekobin.com.",
+            "NEED_REPLY": "```Harap balas pesan!```",
+            "MUST_TEXT": "```Harap balas pesan apa pun```"
         },
         "filters": {
             "FILTER_DESC": "Itu menambahkan filter. Jika seseorang menulis filter Anda, itu mengirimkan jawabannya. Jika Anda hanya menulis .filter, itu menunjukkan daftar filter Anda.",
@@ -91,21 +111,43 @@
             "GOODBYE_SETTED": "*✅ Pesan selamat tinggal telah berhasil disetel!*"
         },
         "lydia": {
-            "ADDLYDIA_DESC": "Activates Lydia for the user.",
-            "NEED_REPLY": "```Please respond to a user's message!```",
-            "COFFEEHOUSE": "```You haven't defined the Coffehouse API Key! ```",
-            "ENABLED_LYDIA": "```Lydia has been activated for this user!```",
-            "RMLYDIA_DESC": "Makes Lydia disabled for the user.",
-            "ALREADY_EMPTY": "```Your user list is already empty!```",
-            "NOT_ADDED": "```You haven't added this user already!```",
-            "DISABLED": "```Lydia has been disabled for this user!```"
+            "ADDLYDIA_DESC": "Mengaktifkan Lydia untuk pengguna.",
+            "NEED_REPLY": "```Harap balas pesan pengguna!```",
+            "COFFEEHOUSE": "```Anda belum menentukan Kunci API Coffehouse! ```",
+            "ENABLED_LYDIA": "```Lydia telah diaktifkan untuk pengguna ini!```",
+            "RMLYDIA_DESC": "Membuat Lydia dinonaktifkan untuk pengguna.",
+            "ALREADY_EMPTY": "```Daftar pengguna Anda sudah kosong!```",
+            "NOT_ADDED": "```Anda belum menambahkan pengguna ini!```",
+            "DISABLED": "```Lydia telah dinonaktifkan untuk pengguna ini!```"
+        },
+        "memes": {
+            "MEMES_DESC": "Photo memes you replied to.",
+            "NEED_REPLY": "*Reply to a photo!*",
+            "DOWNLOADING": "```Downloading media & making meme...```"
+        },
+        "ocr": {
+            "OCR_DESC": "Reads the text on the photo you have replied.",
+            "NEED_REPLY": "*Reply to a photo!*",
+            "DOWNLOADING": "```Media is downloading & reading...```",
+            "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
+            "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
         },
         "profile": {
             "KICKME_DESC": "Menendangmu Keluar dari grup!",
             "KICKME": "```Sampai jumpa! Saya pergi 🤠```",
             "PP_DESC": "Menjadikan foto yang anda balas dengan menulis .pp sebagai foto profil anda.",
             "NEED_PHOTO": "*Beri aku foto!*",
-            "PPING": "```Menyetel foto profil...```"
+            "PPING": "```Menyetel foto profil...```",
+            "BLOCK_DESC": "Block user.",
+            "UNBLOCK_DESC": "Unblock user.",
+            "BLOCKED": "diblokir",
+            "UNBLOCKED": "tidak diblokir",
+            "BLOCKED_UPPER": "Diblokir!",
+            "UNBLOCKED_UPPER": "tidak diblokir.",
+            "NEED_USER": "Beri saya pengguna!",
+            "JID_DESC": "Giving user's JID.",
+            "JID": "```JID address of``` @{} ```: {}```",
+            "JID_CHAT": "```Chat's JID address: {}```"
         },
         "removebg": {
             "REMOVEBG_DESC": "Menghapus latar belakang foto.",
@@ -141,8 +183,8 @@
             "NOT_FOUND": "*Saya tidak dapat menemukan apa pun :(*",
             "SEARCHING": "*🔎 Mencari ...*",
             "WIKI_DESC": "Mencari di Wikipedia.",
-            "IMG_DESC": "Takes Google pics.",
-            "IMG": "Uploading photo ```{}``` number ```{} `..."
+            "IMG_DESC": "Mengambil foto Google.",
+            "IMG": "Mengupload foto```{}``` number ```{} `..."
         },
         "sticker": {
             "STICKER_DESC": "Ini mengubah foto atau video yang Anda balas dengan mengetik .sticker menjadi stiker.",

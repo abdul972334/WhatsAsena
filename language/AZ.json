@@ -66,6 +66,25 @@
             "NEED_REPLY": "```Xaiş edirəm bir mesaja cavap verin!```",
             "MUST_TEXT": "```Cavab mətn olmalıdır```"
         },
+        "heroku": {
+            "RESTART_DESC": "WhatsAsena-nı yenidən başladın",
+            "RESTART_MSG": "```yenidən başladır ...```",
+            "SHUTDOWN_DESC": "WhatsAsena-nı söndürün",
+            "SHUTDOWN_MSG": "```söndürmək ⛔```",
+            "DYNO_DESC": "Heroku dyno istifadəsini yoxlayın",
+            "DYNO_TOTAL": "```Ümumi kvota```",
+            "DYNO_USED": "```Kota istifadə edildi```",
+            "PERCENTAGE": "```faiz```",
+            "DYNO_LEFT": "```qalıq balans```",
+            "SETVAR_DESC": "dəsti heroku config var",
+            "SET_SUCCESS": "Uğurla quruldu ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```Ya key və ya value yoxdur```",
+            "INVALID": "```Yanlış key:value formatı```",
+            "GETVAR_DESC": "almaq heroku config var",
+            "DELVAR_DESC": "Sil heroku config var",
+            "DEL_SUCCESS": "```{} uğurla silindi```",
+            "NOT_FOUND": "```bu açar üçün heç bir nəticə tapılmadı```"           
+        },
         "filters": {
             "FILTER_DESC": "Filter əlavə edər. Yazdığın filter'i biri yazsa, yazdığınız cavabı göndərər. Əgər sadəcə filter yazsanız, yazılan filter'ləri göstərər.",
             "NO_FILTER": "*❌ Bu grupda filter yoxdur!*",
@@ -91,12 +110,27 @@
             "GOODBYE_DELETED": "*✅ Sağollaşma mesajı müvəffəqiyyətlə silindi!*",
             "GOODBYE_SETTED": "*✅ Sağollaşma mesajı müvəffəqiyyətlə düzəldildi!*"
         },
+        
         "profile": {
             "KICKME_DESC": "Yazdığınız grupdan sizi çıxardar.",
             "KICKME": "```Görüşənədək! Mən gedirəm 🤠```",
             "PP_DESC": "Cavabladığınız şəkili profil şəkliniz edər.",
             "NEED_PHOTO": "*Mənə bir şəkil ver!*",
-            "PPING": "```Profil şəkili dəyişdirilir...```"
+            "PPING": "```Profil şəkili dəyişdirilir...```",
+            "BLOCK_DESC": "İstifadəçini bloklayın.",
+            "UNBLOCK_DESC": "İstifadəçinin blokdan çıxarılması.",
+            "BLOCKED": "bloklandı",
+            "UNBLOCKED": "blokdan çıxarıldı",
+            "BLOCKED_UPPER": "Blok edildi!",
+            "UNBLOCKED_UPPER": "Blokdan çıxarıldı.",
+            "NEED_USER": "Mənə bir istifadəçi verin!"
+        },
+        "ocr": {
+            "OCR_DESC": "Yanıt verdiğiniz fotoğraftaki yazıları okur.",
+            "NEED_REPLY": "*Bir fotoğrafa yanıt verin!*",
+            "DOWNLOADING": "```Medya indiriliyor & okunuyor...```",
+            "ERROR": "```Bunu okuyamadım :/```\n*Hata:*```{}```",
+            "RESULT": "*Dil:* ```{}```\n*İşte okuduklarım:* ```{}```"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Lydia botu aktivləşdirir.",
@@ -107,6 +141,11 @@
             "ALREADY_EMPTY": "```İstifadəçi siyahınız artıq boşdur!```",
             "NOT_ADDED": "```Bu istifadəçini hələ əlavə etməmisiniz!```",
             "DISABLED": "```Lydia bu istifadəçi üçün deaktiv edilmişdir!``"
+        },
+        "memes": {
+            "MEMES_DESC": "Yanıt verdiğiniz fotoğrafa yazdığınız yazıyı ekler.",
+            "NEED_REPLY": "*Bir fotoğraf veya videoya yanıt verin!*",
+            "DOWNLOADING": "```Medya indiriliyor & meme yapılıyor...```"
         },
         "removebg": {
             "REMOVEBG_DESC": "Şəklin arxa-planını silər.",
